@@ -30,7 +30,7 @@ body {
     gap: 20px;
     border-bottom: 1px solid seashell;
     padding:10px;
-    opacity: var(--opacity);
+    
 }
 .nav-menu a{
     color: var(--color);
