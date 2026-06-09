@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 :root {
@@ -17,6 +18,12 @@ body {
     color: var(--color);
     opacity: 0.9;
 }
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 .logo{
     height: 50px;
 }
@@ -27,12 +34,57 @@ body {
     align-items:center;
     list-style: none;
     height: 69px;
-    gap: 20px;
+    gap: 20px; 
     border-bottom: 1px solid seashell;
     padding:10px;
     
+}
+.nav-menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
 }
 .nav-menu a{
     color: var(--color);
 }
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-position: center; 
+    background-color: var(--background-color);
+}
+
+.mission-image{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/img-mission-background.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 700px;
+}
+.mission-text-box {
+    width: 1200px;
+    margin: 0;
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-bottom: 15px;
+}
