@@ -221,3 +221,36 @@ footer a{
     align-self: flex-start;
     margin-top: 80px; 
 }
+
+/* Responsiveness Media query for Mobile Layoout */
+    @media (max-width: 768px) {
+        .nav {
+        font-size: 16px;
+    }
+        .locations-flexbox {
+        flex-direction: column;
+    }
+        .locations {
+        height: auto;
+    }
+        .locations-image {
+        width: 100%;
+        height: auto;
+    }
+        .mission-image {
+        width: 100%;
+    }
+        .tea-of-the-month {
+        width: 100%;
+    }
+        .tea-item-flexbox-wrap {
+        width: 100%;
+    }
+        .textbox {
+        width: 80%;
+        height: auto;
+    }
+        footer{
+        height: auto;
+    }
+}
