@@ -26,8 +26,8 @@ The Footer section is a column of Info including contact email and phone  number
 
 
 ### Screenshot
-![Tea Cozy Screenshot full page](./tea-cozy/tea-cozy-full-site-screeshot.png)
-![Tea Cozy Screenshot mobile screen](./tea-cozy/tea-cozy-mobile-sceenshot.png)
+![Tea Cozy Screenshot full page](./tea-cozy-full-site-screenshot.png)
+![Tea Cozy Screenshot mobile screen](./tea-cozy-mobile-sceenshot.png)
 
 ### Links
 [tea-cozy GitHub Repository](https://github.com/drucelle/tea-cozy)
