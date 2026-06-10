@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 :root {
     --font-family: Helvetica, sans-serif;
     --color: seashell;
@@ -36,8 +35,7 @@ header {
     height: 69px;
     gap: 20px; 
     border-bottom: 1px solid seashell;
-    padding:10px;
-    
+    padding:10px; 
 }
 .nav-menu {
     display: flex;
@@ -47,14 +45,12 @@ header {
 .nav-menu a{
     color: var(--color);
 }
-
 header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 100;
 }
-
 .mission {
     display: flex;
     align-items: center;
@@ -63,7 +59,6 @@ header {
     background-position: center; 
     background-color: var(--background-color);
 }
-
 .mission-image{
     display:flex;
     justify-content: center;
@@ -85,18 +80,13 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 h2 {
     margin-bottom: 15px;
 }
-
-
-
 .tea-of-the-month {
     width: 1000px;
     margin: 0 auto;
 }
-
 .tea-of-the-month-title {
 display: flex;
 justify-content: center;
@@ -108,13 +98,10 @@ margin: 0 auto;
 .tea-of-the-month{
     margin-top: 50px;
 }
-
-
 .tea-item {
     padding: 10px;
     text-align: center;
 }
-
 .tea-item img{
     height: 200px;
     width: 300px;
@@ -128,3 +115,54 @@ margin: 0 auto;
     margin-top: 20px;
     gap: 15px;
 }
+.locations-image {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(../images/img-locations-background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+width: 1200px;
+height: 500px;
+}
+.locations {
+ background-color: var(--background-color);
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+ height: 500px;
+ margin-top: 15px;
+ opacity: 1;
+}
+.locations-title{
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+.textbox {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    
+}
+.locations-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+}
+
